@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 20px;
+  padding: 0;
+}
+
+.BoardRadiusPreviewer {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 1fr 2fr;
+  grid-grap: 20px;
+}
+
+.BoardRadiusPreviewer-List {
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 15px;
+  margin: 0;
+  padding: 0;
+}
+
+.BoardRadiusPreviewer-Previewer {
+  display: flex;
+  border: 1px solid #d0d0d0;
+  margin: 20px 30px;
+  grid-column: 2/3;
+  grid-row: 1/4;
+}
+
+.BoardRadiusPreviewer-CssInput {
+  width: 100%;
+}
